@@ -337,10 +337,10 @@ function Dashboard() {
 
         <div className="flex gap-4">
           <Button asChild className="flex-1">
-            <a href="/study">
+            <Link to="/study">
               <BookOpen className="w-4 h-4 mr-2" />
               Kelime Çalış
-            </a>
+            </Link>
           </Button>
           <Button onClick={fetchStats} variant="outline">
             <BarChart3 className="w-4 h-4 mr-2" />
