@@ -67,7 +67,6 @@ class StudySession(BaseModel):
     student_code: str
     word_id: str
     answer: str
-    is_correct: bool
 
 class LoginRequest(BaseModel):
     code: str
